@@ -44,7 +44,7 @@ To use the QA/QC Tool, you will need to install the necessary Python libraries. 
 • openpyxl (for Excel file support)
 
 **Installation Steps**
-1. Install the required dependencies: pip install pandas numpy streamlit openpyxl.
+1. Install the required dependencies: pip install pandas numpy streamlit openpyxl deepchecks.
 2. Download or clone the repository containing this tool to your local machine.
 3. Run the Streamlit application: streamlit run qaqc_tool.py.
 4. The app will open in your default web browser where you can upload your dataset and begin the quality checks.
