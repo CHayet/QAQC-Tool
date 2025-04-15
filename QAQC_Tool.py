@@ -10,7 +10,15 @@ from deepchecks.tabular.checks import SpecialCharacters
 class QAQC:
     def __init__(self):
         # Streamlit for file uploads
-        st.title("QA/QC Tool")
+        logo_url = "https://streamlit.io/images/brand/streamlit-mark-color.png"
+
+        # Custom header with title and logo inline
+        st.markdown(f"""
+            <h1 style='display: flex; align-items: center; gap: 10px;'>
+                Streamlit QA/QC Tool
+                <img src='{logo_url}' width='60' style='margin-top: 3px;'/>
+            </h1>
+        """, unsafe_allow_html=True)
         
         # suppress specific warning
         warnings.filterwarnings("ignore", message="Cannot parse header or footer so it will be ignored")
