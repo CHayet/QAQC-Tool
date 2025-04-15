@@ -1,5 +1,7 @@
 ## QA/QC Tool 
 
+<img width="615" alt="image" src="https://github.com/user-attachments/assets/7ee000ad-b9c6-4a53-9506-d87d4fdee09f" />
+
 
 ### Project Overview
 The QA/QC Tool is a data validation and quality assurance application built with Streamlit for an interactive user experience. This tool is designed to streamline the process of validating data quality by performing a series of key checks on files, including duplicates, outliers, column name consistency, inter-file consistency, and a general data summary.
