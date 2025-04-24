@@ -456,9 +456,8 @@ class QAQC:
             if self.df1 is not None:
                 st.subheader(f"{self.dataset1_name}:")
                 st.write(f"Data Loaded: {self.df1.shape[0]} rows and {self.df1.shape[1]} columns")
-                mixed_data_df=self.check_mixed_data(self.df1)
-                               
-                #st.subheader(f"{self.dataset1_name}:")
+                mixed_data_df=self.check_mixed_data(self.df1)       
+                
                 self.check_summary(self.df1, self.dataset1_name)                            
                 
                 if mixed_data_df is not None:
